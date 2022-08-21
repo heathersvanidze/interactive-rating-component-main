@@ -19,10 +19,12 @@ ul li {
     color:#959eac;
     list-style: none;
     display:inline-block;
-    padding:15px;
     font-family: 'Overpass', sans-serif;
     background:#5a6472;
-    border-radius: 25px;
+    border-radius: 50%;
+    width:30px;
+    height:30px;
+    
 }
 
 /*MOBILE STYLES*/
@@ -44,6 +46,14 @@ button {
     display:block;
     margin:auto;
     margin-top:35px;
+    background-color: #fb7413;
+    width:100%;
+    padding:10px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-family: 'Overpass', sans-serif;
+    color:white;
+    border:none;
 }
 
 .thank-you {
