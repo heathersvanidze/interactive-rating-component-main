@@ -15,18 +15,6 @@ p {
     font-family:'Overpass', sans-serif;
 }
 
-ul li {
-    color:#959eac;
-    list-style: none;
-    display:inline-block;
-    font-family: 'Overpass', sans-serif;
-    background:#5a6472;
-    border-radius: 50%;
-    width:30px;
-    height:30px;
-    
-}
-
 /*MOBILE STYLES*/
 
 .rating-component {
@@ -40,7 +28,20 @@ ul li {
 .rating-numbers {
     text-align:center;
     padding:35px;
+    color:#959eac;
+    font-family: 'Overpass', sans-serif;
+    display:inline-block;
 }
+
+input[type=radio] {
+    opacity: 0;
+    position: absolute;
+  }
+
+  .config-select {
+    background-color: #333e4d;
+    border-radius:50%;
+  }
 
 button {
     display:block;
@@ -54,6 +55,11 @@ button {
     font-family: 'Overpass', sans-serif;
     color:white;
     border:none;
+}
+
+button:hover {
+    background-color: white;
+    color:#fb7413;
 }
 
 .thank-you {
