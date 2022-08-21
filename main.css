@@ -1,7 +1,7 @@
 /*GENERAL STYLES*/
 
 body {
-    background-color: black;
+    background-color: #121417;
     text-align: center;
 }
 
@@ -11,21 +11,46 @@ h1 {
 }
 
 p {
-    color:white;
+    color:#959eac;
     font-family:'Overpass', sans-serif;
 }
 
 ul li {
-    color:white;
+    color:#959eac;
     list-style: none;
+    display:inline-block;
+    padding:15px;
+    font-family: 'Overpass', sans-serif;
+    background:#5a6472;
+    border-radius: 25px;
 }
 
 /*MOBILE STYLES*/
 
 .rating-component {
-    background-color: #7c8798;
+    background-color: #252d37;
     width:375px;
     margin:auto;
+    padding:35px;
+    border-radius: 5px;
+}
+
+.rating-numbers {
+    text-align:center;
+    padding:35px;
+}
+
+button {
+    display:block;
+    margin:auto;
+    margin-top:35px;
+}
+
+.thank-you {
+    background-color: #252d37;
+    width:375px;
+    margin:auto;
+    padding:35px;
 }
 
 
