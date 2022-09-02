@@ -61,7 +61,7 @@ label:hover {
     color:white;
 }
 
-button {
+.submit-button {
     display:block;
     margin:auto;
     margin-top:35px;
@@ -75,7 +75,7 @@ button {
     border:none;
 }
 
-button:hover {
+.submit-button:hover {
     background-color: white;
     color:#fb7413;
 }
